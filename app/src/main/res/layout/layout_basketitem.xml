@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="15dp" android:id="@+id/parent_layout">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Margharita"
+        android:id="@+id/basket_name"
+        android:textColor="#000"
+        android:layout_marginLeft="30dp"
+        android:textSize="18sp"/>
+
+
+
+    <ImageButton
+        android:id="@+id/basket_button"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="0dp"
+        android:background="#00FFFFFF"
+        android:src="@drawable/delete_button"
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/basket_price"
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:layout_toLeftOf="@+id/basket_button"
+        android:layout_marginRight="10dp"
+        android:text="21,90"
+        android:textColor="#000"
+        android:textSize="16sp" />
+</RelativeLayout>

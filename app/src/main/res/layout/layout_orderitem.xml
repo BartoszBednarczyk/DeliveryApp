@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/textViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#1"
+        android:fontFamily="@font/open_sans_bold"/>
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bartosz"
+        android:layout_below="@+id/textViewID"/>
+    <TextView
+        android:id="@+id/textViewLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bednarczyk"
+        android:layout_below="@+id/textViewID"
+        android:layout_toRightOf="@+id/textViewName"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp" />
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewName"
+        android:text="Zbludza 183"/>
+    <TextView
+        android:id="@+id/textViewZip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="34-608"
+        android:layout_below="@+id/textViewAddress"/>
+    <TextView
+        android:id="@+id/textViewCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kamienica"
+        android:layout_below="@+id/textViewAddress"
+        android:layout_toRightOf="@+id/textViewZip"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp" />
+    <TextView
+        android:id="@+id/textViewOrdersLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zamówione:"
+        android:layout_below="@+id/textViewZip"
+        android:fontFamily="@font/open_sans_bold"/>
+    <TextView
+        android:id="@+id/textViewOrdersList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orders"
+        android:layout_below="@+id/textViewOrdersLabel"/>
+    <TextView
+        android:id="@+id/textViewPriceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewOrdersList"
+        android:text="Total: "
+        android:fontFamily="@font/open_sans_bold"/>
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20,90"
+        android:layout_below="@id/textViewOrdersList"
+        android:layout_toRightOf="@+id/textViewPriceLabel"
+        android:fontFamily="@font/open_sans_bold"/>
+    <TextView
+        android:id="@+id/textViewStateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stan zamówienia: "
+        android:layout_below="@id/textViewPriceLabel"/>
+    <TextView
+        android:id="@+id/textViewState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zamówiono"
+        android:layout_below="@id/textViewPrice"
+        android:layout_toRightOf="@id/textViewStateLabel"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp"
+        android:layout_below="@+id/textViewStateLabel"
+        android:background="#555555"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

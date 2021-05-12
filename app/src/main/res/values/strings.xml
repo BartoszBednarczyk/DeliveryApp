@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">DeliveryApp</string>
+    <string name="registration_succes">Registration succesful</string>
+    <string name="login_succes">Signed in</string>
+    <string name="login_unsucces">We couldn\'t find account with that e-mail or password</string>
+    <string name="test">Test</string>
+
+
+    <string-array name="names">
+        <item>Bartosz</item>
+        <item>Szymon</item>
+        <item>Arek</item>
+        <item>Karolina</item>
+        <item>Sebastian</item>
+        <item>Maciej</item>
+        <item>Patryk</item>
+        <item>Mateusz</item>
+        <item>Karolina</item>
+        <item>Piotr</item>
+
+    </string-array>
+
+    <string-array name="emails">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+
+    </string-array>
+
+    <string-array name="prices">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+
+    <string-array name="id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="title_activity_main_admin">MainActivityAdmin</string>
+</resources>
